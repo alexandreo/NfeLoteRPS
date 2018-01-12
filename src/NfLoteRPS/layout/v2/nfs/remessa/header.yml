@@ -1,0 +1,29 @@
+tipo_registro:
+  pos: [1, 1]
+  type: 'number'
+  default: 1
+
+versao:
+  pos: [2,4]
+  type: 'number'
+  default: '002'
+
+inscricao_prestador:
+  pos: [5,12]
+  type: 'number'
+  default: '0'
+
+inicio_periodo_transmissao_arquivo:
+  pos: [13,20]
+  type: 'date'
+  default: '0'
+
+fim_periodo_transmissao_arquivo:
+  pos: [21,28]
+  type: 'date'
+  default: '0'
+
+endline:
+  pos: [29,30]
+  type: 'endline'
+  default: ''
